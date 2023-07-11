@@ -10,11 +10,10 @@ document.getElementById("registration-form").addEventListener("submit", function
     var policyAgreed = document.getElementById("company-policy").checked;
     var newsletterSubscribed = document.getElementById("newsletter").checked;
 
-    // Perform additional validation as per your requirements
-    // ...
-
+    // Perform additional validation as per requirements
+    
     // Submit the form data to the server
-    // ...
+    
 
     // Clear the form fields
     document.getElementById("email").value = "";
