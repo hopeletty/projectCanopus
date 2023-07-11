@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/assets/images/background.jpg');
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/images/bgLogo.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+h1 {
+    display: flex;
+    width: 800px;
+    height: 90px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Lao Muang Don;
+    font-size: 50px;
+    font-style: normal;
+    flex-direction: column;
+    font-weight: 400;
+    margin: 30px;
+    line-height: normal;
+
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+h2 {
+    margin-bottom: 20px;
+    display: flex;
+    width: 314px;
+    height: 20px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Lao Muang Don;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group.row input[type="text"] {
+    width: 50%;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #0B4862;
+    background: #FFF;
+}
+
+
+.checkbox-group {
+    margin-bottom: 20px;
+}
+
+.checkbox-group label {
+    font-weight: normal;
+}
+
+button {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    width: 159px;
+    height: 28px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #0B4862;
+    background: #0B4862;
+    color: #fff;
+    align-items: center;
+}
+
+.center {
+    
+    text-align: center;
+   
+}
+
+.signin-link {
+    text-align: center;
+    margin-top: 20px;
+}
